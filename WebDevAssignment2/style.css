@@ -1,0 +1,84 @@
+*body {
+    margin: 0;
+    color: #28527a; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0 auto;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+}
+{
+    margin-top:0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+} 
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;    
+}
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+    border: 2px solid gray;
+}
+.rounded {
+    border-radius: 50%;
+
+}
+#Persona{
+   background-image: url("https://images4.alphacoders.com/607/thumb-1920-607866.png"); 
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+#Photos{
+     background-image: url("https://images4.alphacoders.com/607/thumb-1920-607866.png"); 
+     background-size: cover;
+     background-repeat: no-repeat;
+       
+}
+#Contact{
+     background-image: url("https://images4.alphacoders.com/607/thumb-1920-607866.png");  
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
